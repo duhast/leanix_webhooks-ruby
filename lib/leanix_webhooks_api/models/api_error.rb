@@ -14,7 +14,7 @@ require 'date'
 require 'time'
 
 module LeanixWebhooksApi
-  class ApiError
+  class XApiError # Conflicting with other LeanixWebhooksApi::ApiError class
     attr_accessor :value
 
     attr_accessor :messages
